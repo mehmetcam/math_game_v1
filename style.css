@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body>p:nth-child(2){
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+#game{
+    width: 500px;
+    height: 500px;
+    border: white 5px solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#game>p{
+    font-size: 72px;
+}
+
+#game>p:nth-child(2){
+    font-size: 150px;
+}
+
+#game>input{
+    width: 300px;
+    height: 90px;
+    border: 0px white solid;
+    text-align: center;
+    font-size: 72px;
+}
+
+
+
+#game>button{
+    width: 200px;
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 20px;
+    font-size: 30px;
+    
+}
+
+#game>button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.full{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.full>p:nth-child(1){
+    font-size: 120px ;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 60px ;
+    
+}
+
+.full>p:nth-child(3){
+    font-size: 120px ;
+    text-align: center;
+    margin-top: 60px;
+    padding-right: 60px;
+}

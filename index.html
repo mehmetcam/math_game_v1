@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="full">
+        <p><span id="score">0</span>pt</p>
+        <div id="game">
+            <p id="chiffre1">0</p>
+            <p id="operator" >+</p>
+            <p id="chiffre2">0</p>
+
+            <input id="myinput" type="text" placeholder="Réponse"
+                onClick="this.setSelectionRange(0, this.value.length)">
+
+
+            <button id="mybutton" onclick=" chiffres(); selected(); timer(); "> Suivante</button>
+        </div>
+        <p><span id="counter">60</span>s</p>
+    </div>
+    <p>Chaque fois que vous donnez une bonne réponse, vous gagnez une seconde de plus ! </p>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
